@@ -1,0 +1,103 @@
+body{ padding: 0%;
+      margin: 0%;
+       background-color: black;}
+
+.head-bar{ background-color: black;}
+
+.iamge{ width: 30%; 
+        float: left;}
+
+.iamge img{ width: 85px;
+            height: 80px;
+            padding-left: 40px;}
+
+.tool{  width: 45%; 
+        float: right;}
+
+.clearfix{ clear: both;}
+
+.head-bar .tool ul li{padding: 20px 20px 5px 50px;
+                    font-size: 24px;
+                    font-weight: 500;
+                    list-style: none;
+                    float: left;}
+.head-bar .tool ul li a {text-decoration: none}
+.head-bar .tool ul li .home {color: brown}
+.head-bar .tool ul li .about {color: rgb(59, 143, 212) }
+.head-bar .tool ul li .contact {color: white}
+.head-bar .tool ul li .faq {color: olivedrab;}
+
+.background{ background-image:url(img/sailboat.jpg); height: 100vh;
+     background-size: 100% 100%;}
+
+     .background{ overflow: auto;}     
+.content{ text-align: center;
+     margin-top: 200px;
+    font-size: x-large;}
+
+    .content h2{font-weight: 200; }
+.content button {border: 2px solid black;
+    font-weight: bolder;
+    border-radius: 25px;
+    padding: 12px 18px; }
+
+    .team-page .our-team-heading h1{color: olivedrab;
+text-align: center;
+font-weight: 200;} 
+.our-team-heading h1 {margin: 60px; }
+
+.ourteam{ width: 60%; margin: auto;}
+.team-red { text-align: center;
+    width: 25%;
+    background-color:black ;
+    float: left;
+    color: white;}
+.team-red p{ color: brown;}
+.team-red img{ border-radius: 50%; 
+    outline: 5px solid brown;
+    outline-offset: 5px;}
+
+.team-blue { text-align: center;
+    width: 25%;
+    background-color:black ;
+    float: left;
+    color: white}
+.team-blue p{ color: rgb(59, 143, 212);}
+.team-blue img { border-radius: 50%;
+    outline: 5px solid rgb(59, 143, 212);
+    outline-offset: 5px;} 
+  
+.team-white { text-align: center;
+    width: 25%;
+    background-color:black ;
+    float: left;
+    color: white;}
+.team-white img{ border-radius: 50%;
+    outline: 5px solid white;
+    outline-offset: 5px;}       
+
+.team-green { text-align: center;
+     width: 25%;
+    background-color:black ;
+    float: left;
+    color: white;}
+.team-green p { color: olivedrab;}
+.team-green img{ border-radius: 50%;
+    outline: 5px solid olivedrab;
+    outline-offset: 5px;}  
+
+.clearfix2{clear: both;}
+    
+
+.heading h1{color: brown;
+        text-align: center;
+        margin-top: 70px;}
+    
+.feed-content{ width: 100%;
+    text-align: center;
+background-color: aqua; }
+
+.photo{width: 33.33%; float: left; margin-bottom: 30px;}
+.photo .green{ border-left: 18px solid olivedrab; }
+.photo .blue{ border-left: 18px solid rgb(59, 143, 212);}
+.photo .red{ border-left: 18px solid brown;}
